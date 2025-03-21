@@ -317,6 +317,14 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: center;
+}
+
+#filters-section img {
+  max-width: 100%;
+  height: auto;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -353,6 +361,8 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #quotes-section content {
@@ -361,11 +371,13 @@ header .mobile {
 
 #quotes-section quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: "Palatino-Italic", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  padding-right: 1.875rem;
+
 }
 
 #quotes-section quote-citation {
